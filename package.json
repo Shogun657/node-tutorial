@@ -4,6 +4,7 @@
   "description": "",
   "main": "1-intro.js",
   "scripts": {
+    "start": "nodemon 13-NPM_test.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,5 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
